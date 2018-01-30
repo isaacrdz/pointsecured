@@ -1,2 +1,0 @@
-[15-Jan-2018 02:54:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/pointsec1/public_html/wp-content/themes/twentyseventeen/404.php on line 13
-[23-Jan-2018 21:27:46 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/pointsec1/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
