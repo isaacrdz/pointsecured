@@ -1,0 +1,66 @@
+0000.000 (0) Opened log file at time: Thu, 05 May 2016 08:37:05 +0000 on http://www.pointsecured.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.4.2 PHP: 5.4.45 (Linux a2plcpnl0613.prod.iad2.secureserver.net 2.6.32-604.30.3.lve1.3.63.el6.x86_64 #1 SMP Sun Sep 27 06:34:10 EDT 2015 x86_64) MySQL: 5.5.45 WPLANG:  Server: Apache/2.4.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 61.1M | 61.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.456 (0) Free space on disk containing Updraft's temporary directory: 2934045.7 MB
+0000.462 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB: 1 (schedule: weekly)
+0000.617 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.645 (0) Semaphore (fd) was stuck, set lock time to 2016-05-05 08:37:06
+0000.667 (0) Semaphore (fd) reset to 1
+0000.723 (0) Set semaphore last lock (fd) time to 2016-05-05 08:37:06
+0000.759 (0) Semaphore lock (fd) complete
+0000.778 (0) Backup run: resumption=0, nonce=8eb05a86ea11, begun at=1462437425 (1s ago), job type=backup
+0000.840 (0) Scheduling a resumption (1) after 300 seconds (1462437726) in case this run gets aborted
+0000.874 (0) Checking if we have a zip executable available
+0001.035 (0) Testing: /usr/bin/zip
+0001.111 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.141 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.144 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.149 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0001.184 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0001.228 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0001.230 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0001.419 (0) Working binary zip found: /usr/bin/zip
+0001.439 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.441 (0) Creation of backups of directories: beginning
+0001.450 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0002.070 (0) Total entities for the zip file: 848 directories, 5334 files (0 skipped as non-modified), 91.3 MB
+0002.080 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.088 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.094 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.102 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.121 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 5334 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0026.569 (0) backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: size is now: 1.70 MB
+0026.597 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 600 files added (on-disk size: 1733.1 KB)
+0026.604 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 700 files added (on-disk size: 1733.1 KB)
+0026.610 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 800 files added (on-disk size: 1733.1 KB)
+0026.618 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 900 files added (on-disk size: 1733.1 KB)
+0026.625 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1000 files added (on-disk size: 1733.1 KB)
+0026.627 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 5334 files batched, 501 (1002) added so far); re-opening (prior size: 1733.1 KB)
+0032.251 (0) backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: size is now: 2.40 MB
+0032.258 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1100 files added (on-disk size: 2426.9 KB)
+0032.263 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1200 files added (on-disk size: 2426.9 KB)
+0032.267 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1300 files added (on-disk size: 2426.9 KB)
+0032.272 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1400 files added (on-disk size: 2426.9 KB)
+0032.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 5334 files batched, 427 (1429) added so far); re-opening (prior size: 2426.9 KB)
+0067.829 (0) backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: size is now: 11.50 MB
+0067.855 (0) A useful amount of data was added after this amount of zip processing: 35.6 s (normalised: 35.5 s, rate: 720.2 KB/s)
+0067.861 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1500 files added (on-disk size: 11821.5 KB)
+0067.866 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1600 files added (on-disk size: 11821.5 KB)
+0067.870 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1700 files added (on-disk size: 11821.5 KB)
+0067.875 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1800 files added (on-disk size: 11821.5 KB)
+0067.879 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 1900 files added (on-disk size: 11821.5 KB)
+0067.882 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 5334 files batched, 501 (1930) added so far); re-opening (prior size: 11821.5 KB)
+0094.184 (0) backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: size is now: 15.40 MB
+0094.192 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2000 files added (on-disk size: 15807.6 KB)
+0094.199 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2100 files added (on-disk size: 15807.6 KB)
+0094.205 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2200 files added (on-disk size: 15807.6 KB)
+0094.212 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2300 files added (on-disk size: 15807.6 KB)
+0094.219 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2400 files added (on-disk size: 15807.6 KB)
+0094.223 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 5334 files batched, 501 (2431) added so far); re-opening (prior size: 15807.6 KB)
+0122.995 (0) backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: size is now: 19.10 MB
+0123.003 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2500 files added (on-disk size: 19550.4 KB)
+0123.008 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2600 files added (on-disk size: 19550.4 KB)
+0123.012 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2700 files added (on-disk size: 19550.4 KB)
+0123.016 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2800 files added (on-disk size: 19550.4 KB)
+0123.021 (0) Zip: backup_2016-05-05-0237_Point_Security_8eb05a86ea11-plugins.zip.tmp: 2900 files added (on-disk size: 19550.4 KB)
+0123.023 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 5334 files batched, 501 (2932) added so far); re-opening (prior size: 19550.4 KB)

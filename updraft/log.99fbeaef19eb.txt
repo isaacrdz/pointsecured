@@ -1,0 +1,298 @@
+0000.000 (0) Opened log file at time: Thu, 14 Dec 2017 17:02:16 +0000 on http://www.pointsecured.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.15 WP: 4.4.3 PHP: 5.4.45 (cgi-fcgi, Linux a2plcpnl0613.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.35.el6.x86_64 #1 SMP Tue Sep 26 06:34:34 EDT 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 60.4M | 61.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.468 (0) Free space on disk containing Updraft's temporary directory: 2142965.8 MB
+0000.487 (0) Tasks: Backup files:  (schedule: monthly) Backup DB: 1 (schedule: weekly)
+0000.490 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.500 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1512666122, seconds_ago=604815)
+0000.503 (0) Set semaphore last lock (d) time to 2017-12-14 17:02:17
+0000.504 (0) Semaphore lock (d) complete
+0000.509 (0) Backup run: resumption=0, nonce=99fbeaef19eb, begun at=1513270936 (1s ago), job type=backup
+0000.512 (0) Scheduling a resumption (1) after 300 seconds (1513271237) in case this run gets aborted
+0000.579 (0) This backup run is not intended for files - skipping
+0000.582 (0) Beginning creation of database dump (WordPress DB)
+0000.586 (0) Testing: /usr/bin/mysqldump
+0000.750 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `ps_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1192 bytes total)
+0000.755 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.783 (0) Table ps_options: Total expected rows (approximate): 524
+0000.816 (0) Table ps_options: Total rows added: 520 in 0.03 seconds
+0000.819 (0) Table ps_options: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_options.table.gz - 37.3 KB)
+0000.825 (0) Table ps_users: Total expected rows (approximate): 3
+0000.829 (0) Table ps_users: Total rows added: 3 in 0.00 seconds
+0000.830 (0) Table ps_users: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_users.table.gz - 0.7 KB)
+0000.835 (0) Table ps_usermeta: Total expected rows (approximate): 112
+0000.840 (0) Table ps_usermeta: Total rows added: 112 in 0.00 seconds
+0000.842 (0) Table ps_usermeta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_usermeta.table.gz - 3.7 KB)
+0000.848 (0) Table ps_commentmeta: Total expected rows (approximate): 0
+0000.851 (0) Table ps_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.852 (0) Table ps_commentmeta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_commentmeta.table.gz - 0.4 KB)
+0000.857 (0) Table ps_comments: Total expected rows (approximate): 0
+0000.860 (0) Table ps_comments: Total rows added: 0 in 0.00 seconds
+0000.861 (0) Table ps_comments: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_comments.table.gz - 0.5 KB)
+0000.871 (0) Table ps_links: Total expected rows (approximate): 0
+0000.988 (0) Table ps_links: Total rows added: 0 in 0.12 seconds
+0000.990 (0) Table ps_links: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_links.table.gz - 0.4 KB)
+0000.995 (0) Table ps_postmeta: Total expected rows (approximate): 1930
+0001.036 (0) Table ps_postmeta: Total rows added: 1930 in 0.04 seconds
+0001.038 (0) Table ps_postmeta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_postmeta.table.gz - 31.3 KB)
+0001.044 (0) Table ps_posts: Total expected rows (approximate): 380
+0001.108 (0) Table ps_posts: Total rows added: 380 in 0.06 seconds
+0001.110 (0) Table ps_posts: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_posts.table.gz - 89.6 KB)
+0001.116 (0) Table ps_term_relationships: Total expected rows (approximate): 27
+0001.119 (0) Table ps_term_relationships: Total rows added: 27 in 0.00 seconds
+0001.121 (0) Table ps_term_relationships: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_term_relationships.table.gz - 0.4 KB)
+0001.126 (0) Table ps_term_taxonomy: Total expected rows (approximate): 33
+0001.130 (0) Table ps_term_taxonomy: Total rows added: 33 in 0.00 seconds
+0001.131 (0) Table ps_term_taxonomy: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_term_taxonomy.table.gz - 0.7 KB)
+0001.137 (0) Table ps_termmeta: Total expected rows (approximate): 0
+0001.139 (0) Table ps_termmeta: Total rows added: 0 in 0.00 seconds
+0001.141 (0) Table ps_termmeta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_termmeta.table.gz - 0.4 KB)
+0001.146 (0) Table ps_terms: Total expected rows (approximate): 33
+0001.150 (0) Table ps_terms: Total rows added: 33 in 0.00 seconds
+0001.151 (0) Table ps_terms: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_terms.table.gz - 0.8 KB)
+0001.157 (0) Table ps_rg_form: Total expected rows (approximate): 4
+0001.178 (0) Table ps_rg_form: Total rows added: 7 in 0.02 seconds
+0001.179 (0) Table ps_rg_form: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form.table.gz - 0.5 KB)
+0001.184 (0) Table ps_rg_form_meta: Total expected rows (approximate): 3
+0001.188 (0) Table ps_rg_form_meta: Total rows added: 7 in 0.00 seconds
+0001.190 (0) Table ps_rg_form_meta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form_meta.table.gz - 4.9 KB)
+0001.195 (0) Table ps_rg_form_view: Total expected rows (approximate): 12307
+0001.287 (0) Table ps_rg_form_view: binary mysqldump finished (writes: 33) in 0.09 seconds
+0001.290 (0) Table ps_rg_form_view: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form_view.table.gz - 171.9 KB)
+0001.295 (0) Table ps_rg_incomplete_submissions: Total expected rows (approximate): 0
+0001.298 (0) Table ps_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0001.299 (0) Table ps_rg_incomplete_submissions: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_incomplete_submissions.table.gz - 0.4 KB)
+0001.305 (0) Table ps_rg_lead: Total expected rows (approximate): 5400
+0001.761 (0) Table ps_rg_lead: Total rows added: 7173 in 0.45 seconds
+0001.764 (0) Table ps_rg_lead: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead.table.gz - 181.2 KB)
+0001.770 (0) Table ps_rg_lead_detail: Total expected rows (approximate): 19821
+0001.915 (0) Table ps_rg_lead_detail: binary mysqldump finished (writes: 36) in 0.14 seconds
+0001.918 (0) Table ps_rg_lead_detail: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_detail.table.gz - 413.8 KB)
+0001.924 (0) Table ps_rg_lead_detail_long: Total expected rows (approximate): 299
+0001.943 (0) Table ps_rg_lead_detail_long: Total rows added: 299 in 0.02 seconds
+0001.945 (0) Table ps_rg_lead_detail_long: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_detail_long.table.gz - 50.3 KB)
+0001.951 (0) Table ps_rg_lead_meta: Total expected rows (approximate): 0
+0001.953 (0) Table ps_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0001.955 (0) Table ps_rg_lead_meta: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_meta.table.gz - 0.4 KB)
+0001.960 (0) Table ps_rg_lead_notes: Total expected rows (approximate): 0
+0001.963 (0) Table ps_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0001.964 (0) Table ps_rg_lead_notes: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_notes.table.gz - 0.4 KB)
+0001.970 (0) Table ps_simple_history: Total expected rows (approximate): 165
+0001.979 (0) Table ps_simple_history: Total rows added: 165 in 0.01 seconds
+0001.980 (0) Table ps_simple_history: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_simple_history.table.gz - 3.8 KB)
+0001.986 (0) Table ps_simple_history_contexts: Total expected rows (approximate): 1785
+0002.037 (0) Table ps_simple_history_contexts: Total rows added: 1785 in 0.05 seconds
+0002.039 (0) Table ps_simple_history_contexts: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_simple_history_contexts.table.gz - 34.3 KB)
+0002.045 (0) Table ps_statistics_exclusions: Total expected rows (approximate): 0
+0002.048 (0) Table ps_statistics_exclusions: Total rows added: 0 in 0.00 seconds
+0002.049 (0) Table ps_statistics_exclusions: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_exclusions.table.gz - 0.3 KB)
+0002.055 (0) Table ps_statistics_historical: Total expected rows (approximate): 0
+0002.057 (0) Table ps_statistics_historical: Total rows added: 0 in 0.00 seconds
+0002.059 (0) Table ps_statistics_historical: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_historical.table.gz - 0.3 KB)
+0002.064 (0) Table ps_statistics_pages: Total expected rows (approximate): 76435
+0002.530 (0) Table ps_statistics_pages: binary mysqldump finished (writes: 40) in 0.46 seconds
+0002.534 (0) Table ps_statistics_pages: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_pages.table.gz - 2080.6 KB)
+0002.541 (0) Table ps_statistics_search: Total expected rows (approximate): 0
+0002.544 (0) Table ps_statistics_search: Total rows added: 0 in 0.00 seconds
+0002.545 (0) Table ps_statistics_search: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_search.table.gz - 0.3 KB)
+0002.552 (0) Table ps_statistics_useronline: Total expected rows (approximate): 1
+0002.555 (0) Table ps_statistics_useronline: Total rows added: 1 in 0.00 seconds
+0002.557 (0) Table ps_statistics_useronline: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_useronline.table.gz - 0.5 KB)
+0002.564 (0) Table ps_statistics_visit: Total expected rows (approximate): 349
+0002.574 (0) Table ps_statistics_visit: Total rows added: 349 in 0.01 seconds
+0002.576 (0) Table ps_statistics_visit: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_visit.table.gz - 4.9 KB)
+0002.583 (0) Table ps_statistics_visitor: Total expected rows (approximate): 82788
+0003.209 (0) Table ps_statistics_visitor: binary mysqldump finished (writes: 51) in 0.62 seconds
+0003.213 (0) Table ps_statistics_visitor: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_visitor.table.gz - 1699 KB)
+0003.219 (0) Table ps_wfBadLeechers: Total expected rows (approximate): 0
+0003.222 (0) Table ps_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0003.224 (0) Table ps_wfBadLeechers: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBadLeechers.table.gz - 0.3 KB)
+0003.230 (0) Table ps_wfBlockedCommentLog: Total expected rows (approximate): 0
+0003.233 (0) Table ps_wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0003.234 (0) Table ps_wfBlockedCommentLog: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlockedCommentLog.table.gz - 0.3 KB)
+0003.240 (0) Table ps_wfBlockedIPLog: Total expected rows (approximate): 37
+0003.244 (0) Table ps_wfBlockedIPLog: Total rows added: 37 in 0.00 seconds
+0003.246 (0) Table ps_wfBlockedIPLog: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlockedIPLog.table.gz - 0.8 KB)
+0003.251 (0) Table ps_wfBlocks: Total expected rows (approximate): 3
+0003.254 (0) Table ps_wfBlocks: Total rows added: 3 in 0.00 seconds
+0003.255 (0) Table ps_wfBlocks: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlocks.table.gz - 0.5 KB)
+0003.260 (0) Table ps_wfBlocksAdv: Total expected rows (approximate): 2
+0003.263 (0) Table ps_wfBlocksAdv: Total rows added: 2 in 0.00 seconds
+0003.264 (0) Table ps_wfBlocksAdv: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlocksAdv.table.gz - 0.5 KB)
+0003.269 (0) Table ps_wfConfig: Total expected rows (approximate): 207
+0003.291 (0) Table ps_wfConfig: Total rows added: 207 in 0.02 seconds
+0003.293 (0) Table ps_wfConfig: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfConfig.table.gz - 239.5 KB)
+0003.299 (0) Table ps_wfCrawlers: Total expected rows (approximate): 20
+0003.307 (0) Table ps_wfCrawlers: Total rows added: 20 in 0.01 seconds
+0003.309 (0) Table ps_wfCrawlers: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfCrawlers.table.gz - 0.8 KB)
+0003.315 (0) Table ps_wfFileMods: Total expected rows (approximate): 34561
+0005.077 (0) Table ps_wfFileMods: binary mysqldump finished (writes: 41) in 1.76 seconds
+0005.080 (0) Table ps_wfFileMods: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfFileMods.table.gz - 2683.2 KB)
+0005.086 (0) Table ps_wfHits: Total expected rows (approximate): 2078
+0005.212 (0) Table ps_wfHits: Total rows added: 2078 in 0.12 seconds
+0005.215 (0) Table ps_wfHits: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfHits.table.gz - 57.1 KB)
+0005.223 (0) Table ps_wfHoover: Total expected rows (approximate): 0
+0005.227 (0) Table ps_wfHoover: Total rows added: 0 in 0.00 seconds
+0005.229 (0) Table ps_wfHoover: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfHoover.table.gz - 0.3 KB)
+0005.236 (0) Table ps_wfIssues: Total expected rows (approximate): 0
+0005.240 (0) Table ps_wfIssues: Total rows added: 0 in 0.00 seconds
+0005.242 (0) Table ps_wfIssues: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfIssues.table.gz - 0.4 KB)
+0005.250 (0) Table ps_wfKnownFileList: Total expected rows (approximate): 34574
+0005.412 (0) Table ps_wfKnownFileList: binary mysqldump finished (writes: 30) in 0.16 seconds
+0005.417 (0) Table ps_wfKnownFileList: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfKnownFileList.table.gz - 332.1 KB)
+0005.424 (0) Table ps_wfLeechers: Total expected rows (approximate): 1164
+0005.453 (0) Table ps_wfLeechers: Total rows added: 1164 in 0.03 seconds
+0005.456 (0) Table ps_wfLeechers: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLeechers.table.gz - 8.3 KB)
+0005.463 (0) Table ps_wfLockedOut: Total expected rows (approximate): 0
+0005.467 (0) Table ps_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0005.469 (0) Table ps_wfLockedOut: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLockedOut.table.gz - 0.3 KB)
+0005.477 (0) Table ps_wfLocs: Total expected rows (approximate): 1
+0005.481 (0) Table ps_wfLocs: Total rows added: 1 in 0.00 seconds
+0005.483 (0) Table ps_wfLocs: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLocs.table.gz - 0.4 KB)
+0005.491 (0) Table ps_wfLogins: Total expected rows (approximate): 898
+0005.552 (0) Table ps_wfLogins: Total rows added: 898 in 0.06 seconds
+0005.556 (0) Table ps_wfLogins: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLogins.table.gz - 22.3 KB)
+0005.564 (0) Table ps_wfNet404s: Total expected rows (approximate): 2
+0005.568 (0) Table ps_wfNet404s: Total rows added: 2 in 0.00 seconds
+0005.571 (0) Table ps_wfNet404s: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfNet404s.table.gz - 0.5 KB)
+0005.584 (0) Table ps_wfNotifications: Total expected rows (approximate): 13
+0005.590 (0) Table ps_wfNotifications: Total rows added: 13 in 0.00 seconds
+0005.592 (0) Table ps_wfNotifications: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfNotifications.table.gz - 3.5 KB)
+0005.598 (0) Table ps_wfPendingIssues: Total expected rows (approximate): 0
+0005.601 (0) Table ps_wfPendingIssues: Total rows added: 0 in 0.00 seconds
+0005.602 (0) Table ps_wfPendingIssues: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfPendingIssues.table.gz - 0.4 KB)
+0005.608 (0) Table ps_wfReverseCache: Total expected rows (approximate): 6
+0005.612 (0) Table ps_wfReverseCache: Total rows added: 6 in 0.00 seconds
+0005.613 (0) Table ps_wfReverseCache: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfReverseCache.table.gz - 0.5 KB)
+0005.619 (0) Table ps_wfSNIPCache: Total expected rows (approximate): 0
+0005.622 (0) Table ps_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0005.624 (0) Table ps_wfSNIPCache: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfSNIPCache.table.gz - 0.4 KB)
+0005.629 (0) Table ps_wfScanners: Total expected rows (approximate): 82
+0005.634 (0) Table ps_wfScanners: Total rows added: 82 in 0.00 seconds
+0005.635 (0) Table ps_wfScanners: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfScanners.table.gz - 1 KB)
+0005.642 (0) Table ps_wfStatus: Total expected rows (approximate): 959
+0005.686 (0) Table ps_wfStatus: Total rows added: 959 in 0.04 seconds
+0005.689 (0) Table ps_wfStatus: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfStatus.table.gz - 15 KB)
+0005.697 (0) Table ps_wfThrottleLog: Total expected rows (approximate): 0
+0005.700 (0) Table ps_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0005.702 (0) Table ps_wfThrottleLog: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfThrottleLog.table.gz - 0.3 KB)
+0005.708 (0) Table ps_wfVulnScanners: Total expected rows (approximate): 0
+0005.711 (0) Table ps_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0005.712 (0) Table ps_wfVulnScanners: finishing file (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfVulnScanners.table.gz - 0.3 KB)
+0005.718 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_options.table.gz (1/55): adding to final database dump
+0005.730 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_users.table.gz (2/55): adding to final database dump
+0005.732 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_usermeta.table.gz (3/55): adding to final database dump
+0005.735 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_commentmeta.table.gz (4/55): adding to final database dump
+0005.737 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_comments.table.gz (5/55): adding to final database dump
+0005.739 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_links.table.gz (6/55): adding to final database dump
+0005.740 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_postmeta.table.gz (7/55): adding to final database dump
+0005.762 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_posts.table.gz (8/55): adding to final database dump
+0005.792 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_term_relationships.table.gz (9/55): adding to final database dump
+0005.794 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_term_taxonomy.table.gz (10/55): adding to final database dump
+0005.796 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_termmeta.table.gz (11/55): adding to final database dump
+0005.798 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_terms.table.gz (12/55): adding to final database dump
+0005.801 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form.table.gz (13/55): adding to final database dump
+0005.804 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form_meta.table.gz (14/55): adding to final database dump
+0005.808 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_form_view.table.gz (15/55): adding to final database dump
+0005.898 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_incomplete_submissions.table.gz (16/55): adding to final database dump
+0005.901 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead.table.gz (17/55): adding to final database dump
+0006.054 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_detail.table.gz (18/55): adding to final database dump
+0006.162 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_detail_long.table.gz (19/55): adding to final database dump
+0006.180 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_meta.table.gz (20/55): adding to final database dump
+0006.182 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_rg_lead_notes.table.gz (21/55): adding to final database dump
+0006.183 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_simple_history.table.gz (22/55): adding to final database dump
+0006.187 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_simple_history_contexts.table.gz (23/55): adding to final database dump
+0006.210 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_exclusions.table.gz (24/55): adding to final database dump
+0006.211 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_historical.table.gz (25/55): adding to final database dump
+0006.213 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_pages.table.gz (26/55): adding to final database dump
+0006.567 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_search.table.gz (27/55): adding to final database dump
+0006.570 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_useronline.table.gz (28/55): adding to final database dump
+0006.572 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_visit.table.gz (29/55): adding to final database dump
+0006.576 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_statistics_visitor.table.gz (30/55): adding to final database dump
+0006.996 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBadLeechers.table.gz (31/55): adding to final database dump
+0006.999 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlockedCommentLog.table.gz (32/55): adding to final database dump
+0007.001 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlockedIPLog.table.gz (33/55): adding to final database dump
+0007.003 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlocks.table.gz (34/55): adding to final database dump
+0007.004 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfBlocksAdv.table.gz (35/55): adding to final database dump
+0007.006 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfConfig.table.gz (36/55): adding to final database dump
+0007.024 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfCrawlers.table.gz (37/55): adding to final database dump
+0007.027 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfFileMods.table.gz (38/55): adding to final database dump
+0008.945 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfHits.table.gz (39/55): adding to final database dump
+0008.973 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfHoover.table.gz (40/55): adding to final database dump
+0008.975 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfIssues.table.gz (41/55): adding to final database dump
+0008.977 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfKnownFileList.table.gz (42/55): adding to final database dump
+0009.066 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLeechers.table.gz (43/55): adding to final database dump
+0009.075 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLockedOut.table.gz (44/55): adding to final database dump
+0009.077 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLocs.table.gz (45/55): adding to final database dump
+0009.078 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfLogins.table.gz (46/55): adding to final database dump
+0009.091 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfNet404s.table.gz (47/55): adding to final database dump
+0009.093 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfNotifications.table.gz (48/55): adding to final database dump
+0009.095 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfPendingIssues.table.gz (49/55): adding to final database dump
+0009.097 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfReverseCache.table.gz (50/55): adding to final database dump
+0009.099 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfSNIPCache.table.gz (51/55): adding to final database dump
+0009.101 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfScanners.table.gz (52/55): adding to final database dump
+0009.103 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfStatus.table.gz (53/55): adding to final database dump
+0009.113 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfThrottleLog.table.gz (54/55): adding to final database dump
+0009.115 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db-table-ps_wfVulnScanners.table.gz (55/55): adding to final database dump
+0009.117 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db.gz: finished writing out complete database file (8160 KB)
+0009.241 (0) Total database tables backed up: 55 (backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db.gz, size: 8372966, sha256)
+0009.250 (0) backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.251 (0) Saving backup history. Total backup size: 8 MB
+0009.255 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0009.259 (0) Cloud backup selection (1/1):  with instance (1/1) (last)
+0009.261 (0) No remote despatch: user chose no remote backup service
+0009.264 (0) Recording as successfully uploaded: backup_2017-12-14-1002_Point_Security_99fbeaef19eb-db.gz (7357f32b0937b887c633091678c7e4e9)
+0009.270 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=8
+0009.272 (0) Number of backup sets in history: 11; groups (db): 1
+0009.273 (0) Examining (for databases) backup set with group_id=0, nonce=99fbeaef19eb, datestamp=1513270936 (Dec 14 2017 17:02:16)
+0009.275 (0) This backup set is the backup set just made, so will not be deleted.
+0009.275 (0) Examining (for databases) backup set with group_id=0, nonce=6f636882b8b3, datestamp=1512666121 (Dec 07 2017 17:02:01)
+0009.275 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.276 (0) Examining (for databases) backup set with group_id=0, nonce=f36391a197b1, datestamp=1512061468 (Nov 30 2017 17:04:28)
+0009.276 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.277 (0) Examining (for databases) backup set with group_id=0, nonce=336c40ff0b07, datestamp=1511683418 (Nov 26 2017 08:03:38)
+0009.277 (0) Examining (for databases) backup set with group_id=0, nonce=221a28eeb8f7, datestamp=1511456606 (Nov 23 2017 17:03:26)
+0009.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.277 (0) Examining (for databases) backup set with group_id=0, nonce=fe10888bf097, datestamp=1510851728 (Nov 16 2017 17:02:08)
+0009.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.278 (0) Examining (for databases) backup set with group_id=0, nonce=d3e480f1f9d1, datestamp=1510247179 (Nov 09 2017 17:06:19)
+0009.278 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.278 (0) Examining (for databases) backup set with group_id=0, nonce=32455f58e561, datestamp=1509642096 (Nov 02 2017 17:01:36)
+0009.278 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.278 (0) Examining (for databases) backup set with group_id=0, nonce=5ee4d3cb4f3e, datestamp=1509091895 (Oct 27 2017 08:11:35)
+0009.278 (0) Examining (for databases) backup set with group_id=0, nonce=90b186a1e906, datestamp=1509038129 (Oct 26 2017 17:15:29)
+0009.278 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.280 (0) Examining (for databases) backup set with group_id=0, nonce=5fbea71b2a2a, datestamp=1508432737 (Oct 19 2017 17:05:37)
+0009.280 (0) 1508432737: db: this set includes a database (backup_2017-10-19-1105_Point_Security_5fbea71b2a2a-db.gz); db count is now 8
+0009.280 (0) 1508432737: db: over retain limit (8); will delete this database
+0009.280 (0) Delete file: backup_2017-10-19-1105_Point_Security_5fbea71b2a2a-db.gz, service=none
+0009.284 (0) Deleting local copy (backup_2017-10-19-1105_Point_Security_5fbea71b2a2a-db.gz)
+0009.296 (0) This backup set is now empty; will remove from history
+0009.302 (0) Deleting log file (log.5fbea71b2a2a.txt)
+0009.303 (0) Number of backup sets in history: 10; groups (files): 1
+0009.305 (0) Examining (for files) backup set with nonce=99fbeaef19eb, datestamp=1513270936 (Dec 14 2017 17:02:16)
+0009.305 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.307 (0) Examining (for files) backup set with nonce=6f636882b8b3, datestamp=1512666121 (Dec 07 2017 17:02:01)
+0009.307 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.307 (0) Examining (for files) backup set with nonce=f36391a197b1, datestamp=1512061468 (Nov 30 2017 17:04:28)
+0009.307 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.307 (0) Examining (for files) backup set with nonce=336c40ff0b07, datestamp=1511683418 (Nov 26 2017 08:03:38)
+0009.307 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0009.309 (0) Examining (for files) backup set with nonce=221a28eeb8f7, datestamp=1511456606 (Nov 23 2017 17:03:26)
+0009.309 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.311 (0) Examining (for files) backup set with nonce=fe10888bf097, datestamp=1510851728 (Nov 16 2017 17:02:08)
+0009.311 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.311 (0) Examining (for files) backup set with nonce=d3e480f1f9d1, datestamp=1510247179 (Nov 09 2017 17:06:19)
+0009.311 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.311 (0) Examining (for files) backup set with nonce=32455f58e561, datestamp=1509642096 (Nov 02 2017 17:01:36)
+0009.311 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.312 (0) Examining (for files) backup set with nonce=5ee4d3cb4f3e, datestamp=1509091895 (Oct 27 2017 08:11:35)
+0009.312 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0009.313 (0) Examining (for files) backup set with nonce=90b186a1e906, datestamp=1509038129 (Oct 26 2017 17:15:29)
+0009.313 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.315 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0009.321 (0) Resume backup (99fbeaef19eb, 0): finish run
+0009.324 (0) Decremented the semaphore (d) by 1
+0009.326 (0) Semaphore (d) unlocked
+0009.328 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0009.334 (0) No email will/can be sent - the user has not configured an email address.
+0009.335 (0) The backup apparently succeeded and is now complete
